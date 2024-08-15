@@ -1,0 +1,12 @@
+import React from 'react'
+import { ISvgProps } from 'types/types';
+
+const HomeIcon: React.FC<ISvgProps> = ({ width = "20px", height = "20px", fill = "#fff" }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width={width} height={height} fill={fill} viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill={fill} stroke="none">
+      <path d="M2463 4679 c-50 -15 -1930 -1146 -1970 -1186 -19 -20 -47 -61 -62 -92 l-26 -56 -3 -1255 c-2 -877 1 -1271 9 -1308 37 -182 198 -338 382 -372 36 -7 224 -10 514 -8 l458 3 63 34 c70 38 100 69 140 145 l27 51 5 512 c5 497 6 512 26 539 11 15 33 37 48 48 27 21 38 21 486 21 448 0 459 0 486 -21 15 -11 37 -33 48 -48 20 -27 21 -42 26 -539 5 -506 5 -512 28 -557 35 -72 75 -114 144 -151 l63 -34 458 -3 c290 -2 478 1 514 8 188 34 350 195 383 381 7 36 9 496 8 1305 l-3 1249 -26 55 c-14 30 -41 71 -60 91 -40 42 -1921 1173 -1977 1189 -45 12 -145 12 -189 -1z" />
+    </g>
+  </svg>
+)
+
+export default HomeIcon;
